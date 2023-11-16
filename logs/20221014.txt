@@ -1,0 +1,6 @@
+22-10-14 10:33:40.103: Triggering bolus: NIRS data, physio, injector.
+22-10-14 10:33:50.598: ERROR: There was an error while executing the bolus timer function: Undefined function 'write' for input arguments of type 'double'.
+22-10-14 10:34:00.528: ERROR: There was an error while executing the bolus timer function: Undefined function 'write' for input arguments of type 'double'.
+22-10-14 10:34:10.063: Triggering bolus: NIRS data, physio, injector.
+22-10-14 10:34:20.221: ERROR: There was an error while executing the bolus timer function: Undefined function 'write' for input arguments of type 'double'.
+22-10-14 10:34:30.244: ERROR: There was an error while executing the bolus timer function: Undefined function 'write' for input arguments of type 'double'.
