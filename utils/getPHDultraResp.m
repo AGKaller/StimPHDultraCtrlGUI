@@ -3,6 +3,9 @@ function resp = getPHDultraResp(scomObj,cmd)
 %given command
 %   Detailed explanation goes here
 
+assert(isa(scomObj,'internal.Serialport'),'First input must be a serial com object!');
+assert(ischar(cmd)||isstring(cmd), 'Second input must be a char or string!');
+
 cbMode  = scomObj.BytesAvailableFcnMode;
 cbBytes = scomObj.BytesAvailableFcnCount;
 cbFH    = scomObj.BytesAvailableFcn;
