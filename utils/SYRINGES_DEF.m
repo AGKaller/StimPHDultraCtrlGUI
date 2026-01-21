@@ -6,6 +6,7 @@ sList = { ...
     ... NAME                            VOLUME [ml]     DIAMETER [mm]
         'BRAUN_OPS_50ml'                50              28;
         'MERIT_VacLok_60ml'             60              27.06;
+        'BRAUN_OmnifixLLS_20ml'         20              20;
     };
 name = sList(:,1);
 volume_ml = vertcat(sList{:,2});
